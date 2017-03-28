@@ -1,0 +1,23 @@
+{
+    "name": "gabrielrcouto/php-simple-neural-network",
+    "description": "PHP Simple Neural Network",
+    "keywords": ["php","nn","neural network"],
+    "homepage": "http://github.com/gabrielrcouto/php-simple-neural-network",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Rodrigues Couto",
+            "email": "gabrielrcouto@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev" : {
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleNeuralNetwork\\": "src/"
+        }
+    }
+}
